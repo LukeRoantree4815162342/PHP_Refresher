@@ -1,0 +1,38 @@
+{
+  "name": "rhubarbphp/module-stem",
+  "description": "A data modelling and ORM module for the Rhubarb PHP framework",
+  "keywords": [
+    "modelling",
+    "orm",
+    "model",
+    "data",
+    "php",
+    "framework"
+  ],
+  "homepage": "http://www.rhubarbphp.com/",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\Stem\\": "src/",
+      "Rhubarb\\Stem\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "require": {
+    "rhubarbphp/rhubarb": "^1.1.0"
+  },
+  "require-dev": {
+    "rhubarbphp/custard" : "^1.0.0",
+    "rhubarbphp/module-build-status-updater": "^1.0.4",
+    "tan-tan-kanarek/github-php-client": "^1.0.0",
+    "codeception/codeception": "2.1.8",
+    "phploc/phploc": "^3.0.0",
+    "theseer/phpdox": "*",
+    "phpmd/phpmd": "^2.0.0",
+    "squizlabs/php_codesniffer": "^2.0.0",
+    "sebastian/phpcpd": "^2.0.0",
+    "pdepend/pdepend": "^2.0.0"
+  }
+}
