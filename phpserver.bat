@@ -1,1 +1,1 @@
-C:\php7.1.4\php.exe -S localhost:8888 -t "%~1"
+C:\php7.1.4\php.exe -S localhost:8895 -t "%~1"
